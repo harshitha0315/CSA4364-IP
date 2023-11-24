@@ -1,0 +1,66 @@
+
+
+<html>
+<h1><center>REGISTRATION FORM</h1>
+<body style="background-color:yellow;>
+<form>
+<label for="name">Enter your First Name:</label>
+<input type="text" name="First Name" id="name" required><br><br>
+
+<label for="name">Enter your Last Name:</label>
+<input type="text" name="last Name" id="name" required> <br><br>
+
+<label for="dob">Enter your Date of Birth:</label>
+<input type="date" id="dob" name="dob" required> <br><br>
+
+<label for="gender">GENDER</label><br><br>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female" required>Female<br><br>
+
+<label for="email">EMAIL ADDRESS: </label>
+<input type="text" name="email" id="email" required>@gmail.com<br><br>
+
+<label for="pwd">Password: </label>
+<input type="password" required><br><br>
+
+<label for="repwd">Retype Password: </label>
+<input type="password" placeholder="confirm" required><br><br>
+
+<label for="number">Enter your Phone number:</label>
+<input type="text" name="number" id="number"><br><br>
+
+<label for="address">Enter your Address:</label>
+<textarea name="address" rows="5" cols="50"></textarea><br><br>
+
+<label for="country">Select Country: </label>
+<select name="country">
+<option value="select">Select</option>
+<option value="india" selected>INDIA</option>
+<option value="usa">USA</option>
+<option value="africa">AFRICA</option>
+<option value="germany">GERMANY</option>
+<option value="uae">UAE</option>
+<option value="korea">KOREA</option>
+</select><br><br>
+
+<label for="state">Select State: </label>
+<select name="state">
+<option value="select">Select</option>
+<option value="andhra pradesh">ANDHRA PRADESH</option>
+<option value="tamil nadu" selected>TAMIL NADU</option>
+<option value="banglore">BANGLORE</option>
+<option value="delhi">DELHI</option>
+<option value="mumbai">MUMBAI</option>
+<option value="kerala">KERALA</option>
+</select><br><br>
+
+<label for="language">Languages known: </label>
+<input type="checkbox" name="language" value="telugu">TELUGU
+<input type="checkbox" name="language" value="hindi">HINDI
+<input type="checkbox" name="language" value="tamil">TAMIL
+<input type="checkbox" name="language" value="english">ENGLISH <br><br>
+
+<input type="button" onclick=functioncall() name="click" value="SUBMIT">
+</form>
+</body>
+</html>

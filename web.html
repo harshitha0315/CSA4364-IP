@@ -1,0 +1,145 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to create a website using HTML and CSS</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<header id="top">
+<nav>
+<ul>
+<li><a href="#intro">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#register">Register</a></li>
+<li><a href="#login">Login</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="intro">
+<div class="Container">
+<img src="library.jpeg" alt="display picture of doggo">
+<h2>Library Management System</h2>
+<center><h3><a href="#top">Go To Top</a></h3></center>
+</div> 
+</section>
+
+<section id="about">
+<div class="container">
+<h1>About Me</h1>
+<p>A Library is a collection of books, and possible other materials and media, that is accessible for use by its members and members of allied institutions</p>
+<ul>
+<li>Btech Qualified</li>
+<li>Software Engineer</li>
+<li>GATE AIR 01</li>
+<center><h3><a href="#top">Go To Top</a></h3></center>
+</ul>
+</div>
+</section>
+
+<section id="register">
+<div class="container">
+<h1>Register now</h1>
+<ul>
+<form>
+<label for="name">Enter your First Name:</label>
+<input type="text" name="First Name" id="name" required><br><br>
+
+<label for="name">Enter your Last Name:</label>
+<input type="text" name="last Name" id="name" required> <br><br>
+
+<label for="dob">Enter your Date of Birth:</label>
+<input type="date" id="dob" name="dob" required> <br><br>
+
+<label for="gender">GENDER</label><br><br>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female" required>Female<br><br>
+
+<label for="email">EMAIL ADDRESS: </label>
+<input type="text" name="email" id="email" required>@gmail.com<br><br>
+
+<label for="pwd">Password: </label>
+<input type="password" required><br><br>
+
+<label for="repwd">Retype Password: </label>
+<input type="password" placeholder="confirm" required><br><br>
+
+<label for="number">Enter your Phone number:</label>
+<input type="text" name="number" id="number"><br><br>
+
+<label for="address">Enter your Address:</label>
+<textarea name="address" rows="5" cols="50"></textarea><br><br>
+
+<label for="country">Select Country: </label>
+<select name="country">
+<option value="select">Select</option>
+<option value="india" selected>INDIA</option>
+<option value="usa">USA</option>
+<option value="africa">AFRICA</option>
+<option value="germany">GERMANY</option>
+<option value="uae">UAE</option>
+<option value="korea">KOREA</option>
+</select><br><br>
+
+<label for="state">Select State: </label>
+<select name="state">
+<option value="select">Select</option>
+<option value="andhra pradesh">ANDHRA PRADESH</option>
+<option value="tamil nadu" selected>TAMIL NADU</option>
+<option value="banglore">BANGLORE</option>
+<option value="delhi">DELHI</option>
+<option value="mumbai">MUMBAI</option>
+<option value="kerala">KERALA</option>
+</select><br><br>
+
+<label for="language">Languages known: </label>
+<input type="checkbox" name="language" value="telugu">TELUGU
+<input type="checkbox" name="language" value="hindi">HINDI
+<input type="checkbox" name="language" value="tamil">TAMIL
+<input type="checkbox" name="language" value="english">ENGLISH <br><br>
+
+<input type="button" onclick=functioncall() name="click" value="SUBMIT">
+<center><h3><a href="#top">Go To Top</a></h3></center>
+</form>
+</ul>
+</div>
+</section>
+
+<section id="login">
+<div class="container">
+<h1>Login</h1>
+<ul>
+<form>
+<label for="Username">USER NAME: </label>
+<input type="text" name="username" id="username"<br><br>
+
+<label for="pwd">Password: </label>
+<input type="password" required><br><br>
+<input type="button" onclick=functioncall() name="click" value="LOGIN">
+<center><h3><a href="#top">Go To Top</a></h3></center>
+</form>
+</ul>
+</div>
+</section>
+
+
+<section id="contact">
+<div class="container">
+<h1>Contact me</h1>
+<ul>
+<li>Email ID</li>
+<li>Insta ID</li>
+<li>Facebook ID</li>
+<center><h3><a href="#top">Go To Top</a></h3></center>
+</ul>
+</div>
+</section>
+
+</main>
+<footer>
+<p>© Copyright 2022 library Co LTd.</p>
+</footer>
+</body>
+</html>
